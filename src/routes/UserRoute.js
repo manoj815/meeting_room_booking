@@ -16,7 +16,7 @@ import {
 } from '../middleware/UserValidateMiddleware';
 const userRoute = express();
 
-userRoute.get('/', adminAuth, getAllUser);
+userRoute.get('/', userAuth, getAllUser);
 userRoute.get('/:id', userAuth, getUserById);
 userRoute.post('/', validateUser, createUser);
 userRoute.post('/login', authenticate);

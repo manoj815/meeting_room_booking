@@ -7,14 +7,19 @@ import {
     updateRoom,
     deleteRoom
 } from '../controllers/RoomController';
+import {
+    validateRoom
+} from '../middleware/RoomValidateMiddleware';
 
 import {
-    userAuth, adminAuth
+    userAuth,
+    adminAuth
 } from '../middleware/AuthMiddleware';
 
 RoomRoute.get('/', userAuth, getAllRooms);
 RoomRoute.get('/:id', userAuth, getRoomById);
-RoomRoute.post('/', adminAuth, createRoom);
+//RoomRoute.post('/', adminAuth, createRoom);
+RoomRoute.post('/', validateRoom, createRoom);
 RoomRoute.put('/:id', adminAuth, updateRoom);
 RoomRoute.delete('/:id', adminAuth, deleteRoom);
 

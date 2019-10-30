@@ -23,6 +23,7 @@ const roomSchema = new Schema({
     // },
     status: {
         type: Boolean,
+        default: 0
     }
 });
 

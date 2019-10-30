@@ -56,22 +56,21 @@ export const validateUser2 = (req, res, next) => {
 }
 
 const checkEmail = async (email) => {
-   // async function checkEmail(email) {
+    // async function checkEmail(email) {
     var result = null;
-    await User.find({
-        'email': email
-    }, (op, er) => {
+    await User.findOne({
+        email: email
+    }, (er, op) => {
+
         if (op != null) {
-            result = false;
-        } else {
             result = true;
+        } else {
+            result = false;
         }
-        //console.log(op);
-       
     });
-    console.log(result);
-    return  result;
-    
+
+    return result;
+
     //return true;
 }
 //console.log(body('email'));
@@ -79,7 +78,16 @@ export const validateUser = [
     check('name').not().isEmpty().withMessage('Name cant be empty'),
     check('email').not().isEmpty().withMessage('Email cant be empty'),
     check('email').isEmail().withMessage('Email must be in valid format'),
-    check('email').custom(value => checkEmail(value)).withMessage('Email already exist'),
+    check('email').custom(value => {
+        return new Promise(function (resolve, reject) {
+            checkEmail(value).then(token => {
+                if (Boolean(token)) {
+                    reject(new Error('E-mail already in use'))
+                }
+                resolve(true)
+            })
+        })
+    }),
     check('password').isLength({
         min: 4
     }).withMessage('minimum length of password must be 4'),
