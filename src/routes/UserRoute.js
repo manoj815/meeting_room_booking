@@ -16,11 +16,11 @@ import {
 } from '../middleware/UserValidateMiddleware';
 const userRoute = express();
 
-userRoute.get('/', userAuth, getAllUser);
-userRoute.get('/:id', userAuth, getUserById);
-userRoute.post('/', validateUser, createUser);
+userRoute.get('/', userAuth(['SUPER_ADMIN_ROLE','ADMIN_ROLE','USER_ROLE']), getAllUser);
+userRoute.get('/:id', userAuth(['SUPER_ADMIN_ROLE','ADMIN_ROLE','USER_ROLE']), getUserById);
+userRoute.post('/', validateUser,userAuth(['ADMIN_ROLE','SUPER_ADMIN_ROLE']), createUser);
 userRoute.post('/login', authenticate);
-userRoute.put('/:id', userAuth, updateUser);
-userRoute.delete('/:id', userAuth, deleteUser);
+userRoute.put('/:id', userAuth(['ADMIN_ROLE','USER_ROLE']), updateUser);
+userRoute.delete('/:id', userAuth(['SUPER_ADMIN_ROLE','ADMIN_ROLE','USER_ROLE']), deleteUser);
 
 export default userRoute;

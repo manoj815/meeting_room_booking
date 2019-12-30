@@ -1,17 +1,30 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 import uniqueValidator from 'mongoose-unique-validator';
+import Organization from './Organization';
+import Location from './OrgLocation';
+
+
 
 const Schema = mongoose.Schema;
 const saltRounds = 10;
 
 var roles = {
-    values: ['ADMIN_ROLE', 'USER_ROLE'],
+    values: ['SUPER_ADMIN', 'ADMIN_ROLE', 'USER_ROLE'],
     message: '{VALUE} is not valid role'
 };
 
 const UserSchema = new Schema({
         _id: {
+            type: Number,
+        },
+        Organization: {
+            ref: 'Organization',
+            type: Number,
+
+        },
+        Location: {
+            ref: 'Location',
             type: Number,
         },
         name: {
@@ -26,13 +39,26 @@ const UserSchema = new Schema({
         },
         password: {
             type: String,
-            required: [true, 'This field is required']
+            required: [true, 'This field is required'],
+            select: false,
         },
         role: {
             type: String,
             required: true,
             default: 'USER_ROLE',
             enum: roles,
+        },
+        phoneNo: {
+            type: String
+        },
+        address: {
+            type: String
+        },
+        state: {
+            type: String
+        },
+        country: {
+            type: String
         },
         status: {
             type: Number,

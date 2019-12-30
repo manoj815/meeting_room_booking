@@ -15,11 +15,12 @@ exports.prepareMail = function (to, nameMail, db, callback) {
 
 			return false;
 		}
+		//Enter gmail credential
 		var transporter = nodemailer.createTransport({
 			service: 'gmail',
 			auth: {
-				user: 'adobe.testing@puretesting.com',
-				pass: '@d0be$#1234'
+				user: '',
+				pass: ''
 			}
 		});
 

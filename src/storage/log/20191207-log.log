@@ -1,0 +1,177 @@
+2019-12-07 10:50:16: info app is running on port 3002 
+2019-12-07 10:50:59: info app is running on port 3002 
+2019-12-07 10:51:08: info app is running on port 3002 
+2019-12-07 10:51:41: info app is running on port 3002 
+2019-12-07 10:52:48: info app is running on port 3002 
+2019-12-07 10:53:00: info undefined 
+2019-12-07 10:54:06: info undefined 
+2019-12-07 10:55:13: info app is running on port 3002 
+2019-12-07 10:55:21: info undefined 
+2019-12-07 10:56:39: info app is running on port 3002 
+2019-12-07 10:56:45: info app is running on port 3002 
+2019-12-07 10:56:51: info app is running on port 3002 
+2019-12-07 10:57:03: info app is running on port 3002 
+2019-12-07 10:57:44: info app is running on port 3002 
+2019-12-07 10:58:43: info app is running on port 3002 
+2019-12-07 10:58:46: info app is running on port 3002 
+2019-12-07 10:59:09: info app is running on port 3002 
+2019-12-07 10:59:38: info app is running on port 3002 
+2019-12-07 10:59:40: info 2019-59-07 
+2019-12-07 11:00:05: info app is running on port 3002 
+2019-12-07 11:00:07: info 2019-00-07 11:i:7 
+2019-12-07 11:00:18: info app is running on port 3002 
+2019-12-07 11:00:21: info 2019-00-07 11:I:21 
+2019-12-07 11:00:37: info app is running on port 3002 
+2019-12-07 11:00:40: info 2019-00-07 11:12:40 
+2019-12-07 11:00:51: info 2019-00-07 11:12:51 
+2019-12-07 11:05:28: info app is running on port 3002 
+2019-12-07 11:05:29: info 2019-05-07 11:12:29 
+2019-12-07 11:06:09: info app is running on port 3002 
+2019-12-07 11:07:14: info app is running on port 3002 
+2019-12-07 11:07:23: info app is running on port 3002 
+2019-12-07 11:08:07: info app is running on port 3002 
+2019-12-07 11:08:19: info app is running on port 3002 
+2019-12-07 11:08:27: info 2019-08-07 11:12:27 
+2019-12-07 11:09:01: info app is running on port 3002 
+2019-12-07 11:09:02: info 2019-09-07 11:12:2 
+2019-12-07 11:09:17: info app is running on port 3002 
+2019-12-07 11:09:25: info app is running on port 3002 
+2019-12-07 11:09:33: info app is running on port 3002 
+2019-12-07 11:09:39: info 2019-09-07 11:12:39 
+2019-12-07 11:14:22: info app is running on port 3002 
+2019-12-07 11:14:31: info app is running on port 3002 
+2019-12-07 11:14:32: info app is running on port 3002 
+2019-12-07 11:14:40: info app is running on port 3002 
+2019-12-07 11:14:49: info app is running on port 3002 
+2019-12-07 11:14:52: info app is running on port 3002 
+2019-12-07 11:15:48: info app is running on port 3002 
+2019-12-07 11:16:01: info app is running on port 3002 
+2019-12-07 11:16:02: info app is running on port 3002 
+2019-12-07 11:16:06: info app is running on port 3002 
+2019-12-07 11:31:55: info app is running on port 3002 
+2019-12-07 11:32:52: info app is running on port 3002 
+2019-12-07 11:32:54: info app is running on port 3002 
+2019-12-07 11:33:32: info app is running on port 3002 
+2019-12-07 11:33:34: info app is running on port 3002 
+2019-12-07 11:33:57: info app is running on port 3002 
+2019-12-07 11:36:20: info app is running on port 3002 
+2019-12-07 11:36:56: info app is running on port 3002 
+2019-12-07 11:37:10: info app is running on port 3002 
+2019-12-07 11:40:01: info app is running on port 3002 
+2019-12-07 11:40:15: info app is running on port 3002 
+2019-12-07 11:42:22: info app is running on port 3002 
+2019-12-07 11:43:34: info app is running on port 3002 
+2019-12-07 11:43:52: info app is running on port 3002 
+2019-12-07 11:44:21: info app is running on port 3002 
+2019-12-07 11:44:56: info app is running on port 3002 
+2019-12-07 11:44:57: info app is running on port 3002 
+2019-12-07 11:45:55: info app is running on port 3002 
+2019-12-07 11:45:57: info { status: false,
+  _id: 1,
+  organizationName: 'nokia1',
+  logo: 'image-1575687929222.png',
+  pinCode: 123456,
+  createdAt: 2019-05-07T03:05:29.000Z,
+  __v: 0 } 
+2019-12-07 13:25:38: info app is running on port 3002 
+2019-12-07 13:25:43: info app is running on port 3002 
+2019-12-07 13:25:46: info app is running on port 3002 
+2019-12-07 13:25:49: info app is running on port 3002 
+2019-12-07 13:25:54: info { status: false,
+  _id: 1,
+  organizationName: 'nokia1',
+  logo: 'image-1575687929222.png',
+  pinCode: 123456,
+  createdAt: 2019-05-07T03:05:29.000Z,
+  __v: 0 } 
+2019-12-07 13:27:02: info app is running on port 3002 
+2019-12-07 13:27:18: info app is running on port 3002 
+2019-12-07 13:28:40: info app is running on port 3002 
+2019-12-07 13:28:44: info [object Object] 
+2019-12-07 13:29:07: info app is running on port 3002 
+2019-12-07 13:30:37: info app is running on port 3002 
+2019-12-07 13:30:39: info app is running on port 3002 
+2019-12-07 13:32:06: info app is running on port 3002 
+2019-12-07 13:32:12: info app is running on port 3002 
+2019-12-07 13:32:38: info app is running on port 3002 
+2019-12-07 13:33:31: info app is running on port 3002 
+2019-12-07 13:33:50: info app is running on port 3002 
+2019-12-07 13:34:03: info app is running on port 3002 
+2019-12-07 13:34:49: info app is running on port 3002 
+2019-12-07 13:35:34: info app is running on port 3002 
+2019-12-07 13:36:56: info app is running on port 3002 
+2019-12-07 13:37:48: info app is running on port 3002 
+2019-12-07 13:43:00: info app is running on port 3002 
+2019-12-07 13:43:02: info app is running on port 3002 
+2019-12-07 13:45:59: info app is running on port 3002 
+2019-12-07 13:46:26: info app is running on port 3002 
+2019-12-07 13:46:54: info app is running on port 3002 
+2019-12-07 13:49:52: info app is running on port 3002 
+2019-12-07 13:49:54: info app is running on port 3002 
+2019-12-07 13:56:51: info app is running on port 3002 
+2019-12-07 13:57:59: info app is running on port 3002 
+2019-12-07 13:58:04: info app is running on port 3002 
+2019-12-07 13:59:13: info app is running on port 3002 
+2019-12-07 13:59:22: info app is running on port 3002 
+2019-12-07 14:00:01: info app is running on port 3002 
+2019-12-07 14:00:17: info app is running on port 3002 
+2019-12-07 14:02:12: info app is running on port 3002 
+2019-12-07 14:18:17: info app is running on port 3002 
+2019-12-07 14:23:26: info app is running on port 3002 
+2019-12-07 14:23:30: info app is running on port 3002 
+2019-12-07 14:23:55: info app is running on port 3002 
+2019-12-07 14:24:44: info app is running on port 3002 
+2019-12-07 14:25:02: info app is running on port 3002 
+2019-12-07 14:25:03: info app is running on port 3002 
+2019-12-07 14:25:05: info app is running on port 3002 
+2019-12-07 14:26:46: info app is running on port 3002 
+2019-12-07 14:27:22: info app is running on port 3002 
+2019-12-07 14:28:12: info app is running on port 3002 
+2019-12-07 14:28:38: info app is running on port 3002 
+2019-12-07 14:29:55: info app is running on port 3002 
+2019-12-07 14:32:23: info app is running on port 3002 
+2019-12-07 14:39:56: info app is running on port 3002 
+2019-12-07 14:40:50: info app is running on port 3002 
+2019-12-07 14:41:33: info app is running on port 3002 
+2019-12-07 14:42:17: info app is running on port 3002 
+2019-12-07 14:43:04: info app is running on port 3002 
+2019-12-07 14:44:18: info app is running on port 3002 
+2019-12-07 14:47:58: info app is running on port 3002 
+2019-12-07 14:48:43: info app is running on port 3002 
+2019-12-07 14:50:18: info app is running on port 3002 
+2019-12-07 14:52:14: info app is running on port 3002 
+2019-12-07 14:53:55: info app is running on port 3002 
+2019-12-07 14:54:21: info app is running on port 3002 
+2019-12-07 14:55:25: info app is running on port 3002 
+2019-12-07 14:55:26: info app is running on port 3002 
+2019-12-07 14:55:29: info app is running on port 3002 
+2019-12-07 14:56:30: info app is running on port 3002 
+2019-12-07 14:57:21: info app is running on port 3002 
+2019-12-07 14:58:33: info app is running on port 3002 
+2019-12-07 15:05:59: info app is running on port 3002 
+2019-12-07 15:06:08: info app is running on port 3002 
+2019-12-07 15:12:42: info app is running on port 3002 
+2019-12-07 15:12:44: info app is running on port 3002 
+2019-12-07 15:14:53: info app is running on port 3002 
+2019-12-07 15:15:22: info app is running on port 3002 
+2019-12-07 15:17:03: info app is running on port 3002 
+2019-12-07 15:19:00: info app is running on port 3002 
+2019-12-07 15:19:08: info app is running on port 3002 
+2019-12-07 15:19:09: info app is running on port 3002 
+2019-12-07 15:19:42: info app is running on port 3002 
+2019-12-07 15:19:43: info app is running on port 3002 
+2019-12-07 15:21:26: info app is running on port 3002 
+2019-12-07 15:23:19: info app is running on port 3002 
+2019-12-07 15:24:05: info app is running on port 3002 
+2019-12-07 15:24:34: info app is running on port 3002 
+2019-12-07 15:24:54: info app is running on port 3002 
+2019-12-07 15:25:00: info app is running on port 3002 
+2019-12-07 15:25:46: info app is running on port 3002 
+2019-12-07 15:26:32: info app is running on port 3002 
+2019-12-07 15:27:17: info app is running on port 3002 
+2019-12-07 15:28:23: info app is running on port 3002 
+2019-12-07 15:28:40: info app is running on port 3002 
+2019-12-07 15:29:36: info app is running on port 3002 
+2019-12-07 15:30:19: info app is running on port 3002 
+2019-12-07 15:31:26: info app is running on port 3002 
+2019-12-07 15:32:05: info app is running on port 3002 

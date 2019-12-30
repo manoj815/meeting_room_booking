@@ -1,13 +1,16 @@
 import mongoose from 'mongoose';
-const Schema = mongoose.Schema();
-const RoomImagesSchema = new Schema({
+
+
+const Schema = mongoose.Schema;
+const roomImagesSchema = new Schema({
     _id: {
-        type: number,
+        type: Number,
     },
     imageUrl: {
         type: String,
         required: [true, 'Room image is required']
-    }
+    },
+     
 });
 
-export default RoomImagesSchema;
+export default roomImagesSchema;

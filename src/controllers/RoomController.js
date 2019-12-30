@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 import roomSchema from '../models/Room';
 import {
-
     validationResult
 } from 'express-validator';
 
@@ -48,6 +47,7 @@ export const createRoom = (req, res) => {
     });
 
 };
+new Date().toISOString();
 
 export const updateRoom = (req, res) => {
     let room = new Room(req.body);
@@ -75,15 +75,16 @@ export const updateRoom = (req, res) => {
 }
 
 export const deleteRoom = (req, res) => {
-        Room.findByIdAndRemove(req.params.id, (err, op) => {
-                    if (err) {
-                        res.status(422).send({
-                            'message': 'error while retrieving rooms'
-                        });
-                    }
+    Room.findByIdAndRemove(req.params.id, (err, op) => {
+        if (err) {
+            res.status(422).send({
+                'message': 'error while retrieving rooms'
+            });
+        }
 
-                    res.status(200).send({
-                                message: `Room id ${req.params.id}  sucuessfully deleted`});
+        res.status(200).send({
+            message: `Room id ${req.params.id}  sucuessfully deleted`
+        });
     });
 
 }

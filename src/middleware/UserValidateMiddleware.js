@@ -76,6 +76,7 @@ const checkEmail = async (email) => {
 //console.log(body('email'));
 export const validateUser = [
     check('name').not().isEmpty().withMessage('Name cant be empty'),
+    check('organization').not().isEmpty().withMessage('organization cant be empty'),
     check('email').not().isEmpty().withMessage('Email cant be empty'),
     check('email').isEmail().withMessage('Email must be in valid format'),
     check('email').custom(value => {
